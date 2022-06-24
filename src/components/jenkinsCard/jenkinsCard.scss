@@ -1,0 +1,27 @@
+@import '../../layout/colors.scss';
+
+.jenkinscontainer {
+    border-radius: 10px;
+    border: 1px solid;
+    background: $form-background;
+    padding: 0px;
+    width: 900px;
+    height: 80px;
+    border-color: $table-wrap-border;
+    border-spacing:10px 25px;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+     /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

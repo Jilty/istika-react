@@ -1,0 +1,20 @@
+.apass-create-div {
+    background: linear-gradient(190deg, #34484f 10%, #8b58e3 180%);
+    color: #fff;
+}
+
+.optionBox-Wrapper {
+    padding: 160px 40px 40px;
+    .optionBox-Name {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .optionBox-Description {
+        font-size: 13px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+    .optionBox-Action {
+        color: #00a2df;
+    }
+}

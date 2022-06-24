@@ -1,0 +1,251 @@
+@import "../colors.scss";
+.modalStyle{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 500;
+    background-color: $white;    
+}
+.root {
+    display: flex;
+    background: $dashboard-background;
+}
+.content {
+    flex-grow: 1;
+    height: 100vh;
+    overflow: auto;   
+}
+.project-overview-wrap{
+    margin-left: 12pt;
+}
+.project-overview-wrap,.project-overview-container{
+    height: 100%;
+}
+.project-overview-container{
+    margin: 4% 0% 0% 1%;
+}
+.create-project-btn{
+    float: right;
+    color: $white;
+    background-color: $blue;
+border-color: $blue;
+}
+.create-project-container-wrapper{
+    position: absolute;
+float: right;
+right: 0px;
+z-index: 1;
+height: 100%;
+}
+.create-project-container{
+    padding: 2%;
+    border-left: 1px solid $light-ash;
+    background-color: $white;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 400px;
+    transition: right .4s ease;
+    right: -700px;
+    position: absolute;
+    height: 100%;
+}
+.create-project-container.slide{
+
+    width: 450px;
+    right: 0px;
+    position: relative;
+    display: block;
+    float: right;
+    height: 100%;
+    padding-top:25%;
+}
+.close-container{
+    float: right;
+top: 8%;
+position: absolute;
+right: 4%;
+font-size: 17px;
+font-weight: bold;
+cursor: pointer;
+}
+select{
+    margin: 2% 0% 2% 0%;
+padding: 1%;
+}
+table{
+    background-color: $white;
+}
+.projet-list-container{
+    box-sizing: border-box;
+display: flex;
+flex-flow: column nowrap;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: initial;
+place-content: space-between flex-start;
+align-items: flex-start;
+background-color: $project-list-background;
+.details-panel{
+    display: flex;
+flex-direction: column;
+width: 400px;
+height: 100%;
+background-color:$pjt-details-background;
+overflow: hidden;
+}
+}
+
+.projects-header-wrap{
+   padding: 1% 2% 0% 0%;
+}
+.search-container{
+    width: 100%;
+    input{
+        height: 40px;
+padding: 10px 10px 10px 26px;
+background: $white;
+border: 1px solid $search-border;
+box-sizing: border-box;
+border-radius: 2px;
+width: 100%;
+    }
+}
+.projects-container{
+    border-right: 1px solid $ash;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.project-side-desc-wrap{
+   
+
+padding: 0;
+header{
+width: 100%;
+}
+section{
+
+}
+}
+.modal{
+    top: 30% !important;
+
+}
+
+table{
+    // border: 1px solid #324462;
+    thead{
+        th{
+            background: $dashboard-background;
+            border: none !important;
+            border-bottom: none !important;
+            color:$ash;
+        }
+    }
+    tr:nth-child(even) td{
+    background: $table-even-background;
+    color: $white;
+    }
+    tr:nth-child(odd) td{
+    background: $table-odd-background; 
+    color: $white;
+    }
+    td{
+    border-bottom: none;
+    border-top: none !important;
+}
+}
+.table-wrap{
+    border: 1px solid $table-wrap-border;
+    border-radius: 11px;
+    overflow: hidden;
+    // padding: 1% 3% 1% 3%;
+}
+.sub-header{
+    color: $ash;
+}
+.project-container-row{
+    height: 100%;
+}
+.validation-error{
+    border: 1px solid $red !important;
+}
+table tr{
+    line-height: 35px;
+}
+.carousel .control-dots {
+    position: relative  !important;
+   
+}
+.archetype-card {
+     border: 2px solid transparent;
+        padding: 5%;
+    border-radius: 3px;
+    background-color: $arctype-bg-color;
+    color: $arctype-color;
+    margin: 7% 0% 5% 0%;
+    height: 81px;
+    text-align: center;
+    font-size: 11px;
+    vertical-align: text-bottom;
+    line-height: 10px;
+    box-shadow:$arctype-box-shadow 1.95px 1.95px 2.6px;
+}
+.template-selected{
+    border: $green;
+}
+.carousel.carousel-slider{
+    height: inherit  !important;
+}
+.carousel-root{
+    // height: 100px  !important;
+}
+.carousel .control-dots .dot{
+    height: 8px !important;
+}
+div > .template-icon{
+    display: none  !important;
+}
+.carousel .thumbs-wrapper {
+    display: flex  !important;
+    justify-content: center  !important;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.project-step-btn-group{
+    button{
+        margin: 13pt;
+    }
+    .btn-secondary{
+        background-color: $light-gray;
+    }
+    .btn-primary{
+        background-color: $yellow;
+        color:$black;
+    }
+}
+.project-name{
+    width: 60%;
+    color: $black;
+    border-radius: 2pt;
+}
+
+.card-row{   
+    margin-left: 25px;
+    grid-gap: 25px
+    
+}
+.card-body {    
+    background-color: rgb(249, 244, 244);
+   
+  }
+  
+  .card-body:hover{
+    background-color: rgb(226, 224, 224);
+  }
+
+  

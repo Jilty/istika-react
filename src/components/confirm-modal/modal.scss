@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+  }
+  
+ 
+  .resourceModal{
+    top:3% !important;
+}
+.confirm-btn{
+    position:relative;   
+    top:auto;
+    left:10px;   
+    width: 30%;
+    color:var(--white);
+    background-color:var(--blue);
+    padding: 10px 10px;
+border-color:var(--blue);
+}
+.confirm-btn-cancel{
+    position:relative;
+    left:100px;    
+    width: 30%;
+    color:var(--white);
+    background-color:var(--blue);
+    padding: 10px 10px;
+border-color:var(--blue);
+}
+.create-project-btn{
+    float: right;
+    color: #fff;
+    background-color: #00a2df;
+border-color: #00a2df;
+}
+.inner
+{
+    display: inline-block;
+}

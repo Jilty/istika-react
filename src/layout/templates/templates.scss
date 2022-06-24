@@ -1,0 +1,22 @@
+@import "../colors.scss";
+.search-template{
+    border: 1px solid $table-wrap-border;
+background: none !important;
+width: 80%;
+border-radius: 5px;
+height: 42px;
+text-align: center;
+color: $light-ash;
+}
+.template-search-wrap{
+    margin-top: 2%;
+}
+.search-left-panel{
+    border-right: 1px solid $search-left-border;
+text-align: center;
+color: $light-ash;
+padding-left: 2%;
+}
+.searchButon{
+    border-radius: 5px;
+}

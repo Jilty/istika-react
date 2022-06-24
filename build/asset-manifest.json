@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.67852885.chunk.css",
+    "main.js": "/static/js/main.0fb08d15.chunk.js",
+    "main.js.map": "/static/js/main.0fb08d15.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.08567abc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.08567abc.js.map",
+    "static/css/2.eaf7e7da.chunk.css": "/static/css/2.eaf7e7da.chunk.css",
+    "static/js/2.5bcac4d7.chunk.js": "/static/js/2.5bcac4d7.chunk.js",
+    "static/js/2.5bcac4d7.chunk.js.map": "/static/js/2.5bcac4d7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ad54c55b2c51d598753e0e7d6de4294e.js": "/precache-manifest.ad54c55b2c51d598753e0e7d6de4294e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.eaf7e7da.chunk.css.map": "/static/css/2.eaf7e7da.chunk.css.map",
+    "static/css/main.67852885.chunk.css.map": "/static/css/main.67852885.chunk.css.map",
+    "static/js/2.5bcac4d7.chunk.js.LICENSE.txt": "/static/js/2.5bcac4d7.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/OpenSans-Regular.3ed9575d.ttf",
+    "static/media/anaplan.png": "/static/media/anaplan.f94c9ae4.png",
+    "static/media/aws.png": "/static/media/aws.27e8e879.png",
+    "static/media/azure-icon.png": "/static/media/azure-icon.d09b637a.png",
+    "static/media/bitbucket.png": "/static/media/bitbucket.7946913b.png",
+    "static/media/jenkins.png": "/static/media/jenkins.9323d2ec.png",
+    "static/media/jmeter.png": "/static/media/jmeter.10151904.png",
+    "static/media/kafka.png": "/static/media/kafka.dd291674.png",
+    "static/media/logo.svg": "/static/media/logo.ee7cd8ed.svg",
+    "static/media/logo_gray.webp": "/static/media/logo_gray.741aa49a.webp",
+    "static/media/magento.png": "/static/media/magento.4d42a8ac.png",
+    "static/media/mongodb.png": "/static/media/mongodb.191eade5.png",
+    "static/media/mulesoft.png": "/static/media/mulesoft.611283c3.png",
+    "static/media/rtf.png": "/static/media/rtf.7a2f32c4.png",
+    "static/media/salesforce.png": "/static/media/salesforce.f646b402.png",
+    "static/media/servicenow.jpg": "/static/media/servicenow.6bbdb11b.jpg",
+    "static/media/workday.png": "/static/media/workday.fc6720ad.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08567abc.js",
+    "static/css/2.eaf7e7da.chunk.css",
+    "static/js/2.5bcac4d7.chunk.js",
+    "static/css/main.67852885.chunk.css",
+    "static/js/main.0fb08d15.chunk.js"
+  ]
+}
