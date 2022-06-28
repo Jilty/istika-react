@@ -1,5 +1,5 @@
 #! bin/bash
-
+sudo apt-get install -y certbot python3-certbot-nginx
 certbot run -n --nginx --agree-tos -d istika.tk,www.istika.tk  -m  jiltyissac2010@gmail.com  --redirect
 
 # sudo apt-get install -y certbot python3-certbot-nginx
