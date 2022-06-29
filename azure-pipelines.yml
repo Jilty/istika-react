@@ -43,6 +43,8 @@ jobs:
           bash nginx.sh 2>&1  > /dev/null
           bash firewallsettings.sh 
           sudo systemctl reload nginx 2>&1  > /dev/null
-          bash securenginx.sh
+          bash reconfigurenginx.sh
+          sudo systemctl restart nginx
+         
          
               
