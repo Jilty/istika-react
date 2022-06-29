@@ -40,8 +40,9 @@ jobs:
         sshEndpoint: 'istika-react-droplet'
         runOptions: inline
         inline: |
-          bash nginx.sh 
+          bash nginx.sh 2>&1  > /dev/null
           bash firewallsettings.sh 
-          sudo systemctl reload nginx 
+          sudo systemctl reload nginx 2>&1  > /dev/null
+          bash securenginx.sh
          
               
