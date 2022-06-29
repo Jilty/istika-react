@@ -28,6 +28,12 @@ jobs:
         sshEndpoint: 'istika-react-droplet'
         sourceFolder: Scripts
         targetFolder: '~/'
+    - task: CopyFilesOverSSH@0
+      displayName: 'Copy build file to the remote server'
+      inputs:
+        sshEndpoint: 'istika-react-droplet'
+        sourceFolder: build
+        targetFolder: /var/www/istika.tk/html     
     - task: SSH@0
       displayName: 'Run shell inline on remote machine'
       inputs:
@@ -40,9 +46,4 @@ jobs:
           bash securenginx.sh 2>&1 >/dev/null
           bash reconfigurenginx.sh 2>&1 >/dev/null
           sudo systemctl restart nginx 2>&1 >/dev/null
-    - task: CopyFilesOverSSH@0
-      displayName: 'Copy build file to the remote server'
-      inputs:
-        sshEndpoint: 'istika-react-droplet'
-        sourceFolder: build
-        targetFolder: /var/www/istika.tk/html           
+              
